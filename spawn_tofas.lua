@@ -4,6 +4,8 @@
 
 ---------------------------------------------------------------------------------------------------------------------------
 local tool = Instance.new("Tool")
+tool.Name = "TofasSpawner"
+tool.TextureId = "rbxassetid://2328243272"
 tool.RequiresHandle = false
 tool.Parent = game.Players.LocalPlayer.Backpack
 
