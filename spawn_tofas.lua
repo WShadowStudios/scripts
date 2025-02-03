@@ -15,5 +15,6 @@ tool.Parent = lplr.Backpack
 
 tool.Activated:Connect(function()
 local tofas = LoadCustomInstance("https://raw.githubusercontent.com/WShadowStudios/scripts/main/Tofas.rbxm")
+lplr.Character.Humanoid:MoveTo(tofas["ön taraf"].Position)
 tofas.Parent = game.Workspace
 end)
