@@ -15,4 +15,5 @@ tool.Parent = lplr.Backpack
 
 tool.Activated:Connect(function()
 local tofas = LoadCustomInstance("https://raw.githubusercontent.com/WShadowStudios/scripts/main/Tofas.rbxm")
+tofas.Parent = game.Workspace
 end)
