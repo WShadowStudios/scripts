@@ -1,6 +1,6 @@
 -- modded upio scanner :omg:
 
---local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
+local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
 
 ---------------------------------------------------------------------------------------------------------------------------
 
