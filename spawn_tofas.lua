@@ -13,8 +13,6 @@ tool.TextureId = "rbxassetid://2328243272"
 tool.RequiresHandle = false
 tool.Parent = lplr.Backpack
 
-function spawn()
+tool.Activated:Connect(function()
 local tofas = LoadCustomInstance("https://raw.githubusercontent.com/WShadowStudios/scripts/main/Tofas.rbxm")
 end)
-
-tool.Activated:Connect(spawn)
