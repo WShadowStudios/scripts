@@ -11,6 +11,4 @@ function spawn()
 local tofas = LoadCustomInstance("https://raw.githubusercontent.com/WShadowStudios/scripts/main/Tofas.rbxm")
 end)
 
-tool.Activated:Connect(function(player)
-
-31, 89, 152
+tool.Activated:Connect(spawn)
